@@ -1,0 +1,11 @@
+{
+  "name": "threat-detection",
+  "displayName": "threat-detection",
+  "expo": {
+    "sdkVersion": "26.0.0",
+    "ios": {
+      "icon": "./images/waldo_app_icon.png",
+      "bundleIdentifier": "com.waldo.threatDetection"
+    }
+  }
+}
