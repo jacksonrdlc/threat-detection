@@ -25,7 +25,7 @@ export default class App extends React.Component {
     return axiosInstance.get('enrichedframe')
       .then((responseJson) => {
         let hits = responseJson.data
-        console.log('penis',hits)
+        console.log(hits)
         this.setState({ hits });
       })
       .catch((error) => {
