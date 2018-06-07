@@ -1,8 +1,5 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 7426,
-  "expoServerNgrokUrl": "https://en-wnv.jacksonrdlc.threat-detection.exp.direct",
-  "packagerNgrokUrl": "https://packager.en-wnv.jacksonrdlc.threat-detection.exp.direct",
-  "ngrokPid": 7440
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null
 }
