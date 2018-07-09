@@ -40,11 +40,11 @@ export default class App extends React.Component {
           style={{ margin: 10, backgroundColor: '#BF5144', borderRadius: 4, shadowColor: '#000', shadowOpacity: .15, shadowOffset: {width: 1, height: 3} }}>
           <Image
             style={{ width: 350, height: 200, margin: 20 }}
-            source={require('./images/Rudelic_Jack.jpeg')}
+            source={require('./images/Unknown_Person.png')}
           />
           <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', padding: 10, backgroundColor: '#AF493D', color: '#fff' }}>
             <Text style={{ fontSize: 22, color: '#fff' }}>Threat Detected</Text>
-            <Text style={{ fontSize: 16, color: '#fff' }}>Jack Rudelic</Text>
+            <Text style={{ fontSize: 16, color: '#fff' }}>{frame.item.warning_response.name}</Text>
             <Text style={{ fontSize: 16, color: '#fff' }}>{ new Date().toLocaleString()}</Text>
           </View>
         </View>
@@ -53,13 +53,13 @@ export default class App extends React.Component {
       return (
         <View
           style={{ margin: 10, backgroundColor: '#8CBEA3', borderRadius: 4, shadowColor: '#000', shadowOpacity: .15, shadowOffset: {width: 1, height: 3} }}>
-          <Image
+         <Image
             style={{ width: 350, height: 200, margin: 20 }}
-            source={require('./images/DawnKing.jpg')}
+            source={require('./images/Unknown_Person.png')}
           />
           <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', padding: 10, backgroundColor: '#75B693', color: '#fff' }}>
             <Text style={{ fontSize: 22, color: '#fff' }}>Friend Detected</Text>
-            <Text style={{ fontSize: 16, color: '#fff' }}>Dawn King</Text>
+            <Text style={{ fontSize: 16, color: '#fff' }}>{frame.item.image_response.name}</Text>
             <Text style={{ fontSize: 16, color: '#fff' }}>{ new Date().toLocaleString()}</Text>
           </View>
         </View>
